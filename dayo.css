@@ -100,7 +100,7 @@ label #cancel {
 
 .bg {
     height: 100vh;
-    background-image: url("./image/karubi.png");
+    background-image: url("./karubi.png");
     background-size: cover;
     background-position: center;
     transition: all 0.5s;

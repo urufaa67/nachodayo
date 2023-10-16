@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>お問い合わせフォーム</title>
+    <link rel="stylesheet" href="contack.css" />
+  </head>
+  <body>
+<div class="contact-form">
+    <p class="title">Contack Me</p>
+
+    <form action="https://api.staticforms.xyz/submit" method="post">
+      <input type="hidden" name="accessKey" value="a35827be-8b2d-4940-92b3-e77bfe2d7dba">       <input type="hidden" name="subject" value="Test">
+      <div class="item">
+        <label class="label">NAME</label>
+        <input type="text" class="inputs" name="name" required/>
+      </div>
+
+      <div class="item">
+        <label class="label">E-MAIL</label>
+        <input type="email" class="inputs" name="email" required />
+      </div>
+
+        <div class="item">
+          <label class="label">Question</label>
+          <textarea class="inputsf" name="message" placeholder="WRITE HERE"></textarea>
+        </div>
+
+        <div class="button-area">
+          <input type="submit" value="CONFIRM" />
+          <input type="reset" value="RESET" />
+        </div>
+      </div>
+    </form>
+</div>
+  </body>
+</html>

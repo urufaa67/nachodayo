@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="description" content="practice for portfolio"/>
+    <title>PORTFOLIO</title>
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="test.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header id="header" class="active">
+            <h1 class="site-title">
+                <a href="#"> Introduction </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</li>
+                    <li><a href="test.html#second">ABOUT</a></li>
+                    <li><a href="#third">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <button class="btn" onclick="window.open('https://urufaa67.github.io/contack/')" type="button">Contack</button>
+    </header>    
+        <div class="content" id="move">
+            <picture>
+                <source media="(max-width: 600px)" srcset="./listen.png" />
+                <img src="./listen.png" alt="" />
+            </picture>
+        </div>
+    
+    <section class="about"><a name="second"></a>
+        <div class="main">
+            <div class="me">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./towa.png" />
+                    <img src="./towa.png" alt="">
+                </picture>
+            </div>
+            <div class="about-text">
+                <h2>About me</h2>
+                <h5>Studying for programer</h5>
+                <p>Now, Study HTML/CSS/Javascript/Python to be programer.</p>
+                <button onclick="window.open('https://urufaa67.github.io/contack/')" type="button">Contack</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="third" class="portfolio">
+        <div class="title">
+            <h2>PORTFOLIO</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-sharp fa-solid fa-code fa-beat fa-2xl"></i>
+                <h5>Studying for Programer</h5>
+                <div class="pragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem alias ipsum earum officiis. Autem, enim ut ea nemo rem voluptate tenetur deserunt in dolore minima? Reiciendis eveniet tempora eius ullam.
+                    </p>
+                    <p style="text-align: center">
+                        <button onclick="window.open('#')" type="button">MORE</button>
+                    </p>
+                </div>
+            </div>
+        
+            <div class="card">
+                <i class="fa-sharp fa-regular fa-file-code fa-bounce fa-2xl"></i>
+                <h5>NachoNeko</h5>
+                <div class="pragraph">
+                    <p>
+                        I made a site introduce vtuber that I loved the most from
+                        a lot of! Her name is "Natsuki Amashiro". That`s called "Nacho".
+                    </p>
+                    <p style="text-align: center">
+                    <button onclick="window.open('http://127.0.0.1:5500/dayo.html')" type="button">MORE</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div class="contact">
+            <p>If you interesting click below to contack.</p>
+            <button class="button-two" onclick="window.open('https://urufaa67.github.io/contack/')" type="button">Contack</button>
+        </div>  
+
+        <script src="test.js"></script>
+    
+</body>
+</html>

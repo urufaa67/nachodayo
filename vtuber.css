@@ -65,7 +65,7 @@ ul li:hover a {
     border-radius: 3px;
   }
   
-  label #btn {
+label #btn {
     left: 40px;
     top: 25px;
     font-size: 25px;
@@ -83,7 +83,6 @@ label #cancel {
     color: #fff;
     padding: 4px 9px;
     transition: all 0.5s;
-    position: fixed;
   }
   
 #check:checked ~ .sidebar {
@@ -109,6 +108,7 @@ label #cancel {
     background-image: url("./image/karubi.png");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     transition: all 0.5s;
 }
 
@@ -116,18 +116,15 @@ label #cancel {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
   }
   
 .card {
-    height: 480px;
-    width: 400px;
+    height: auto;
+    width: auto;
     background-color: #bebaba;
-    padding: 20px 35px;
+    padding: 20px 20px;
     border-radius: 20px;
     margin: 20px;
-    /* position: relative; */
-    overflow: hidden;
     text-align: center;
   }
   
@@ -141,15 +138,15 @@ label #cancel {
 
   h5 {
     color: rgb(10, 10, 10);
-    font-size: 21px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   
   .pra p {
     color: rgb(73, 129, 250);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
 
   .card .button {
@@ -169,44 +166,34 @@ label #cancel {
     cursor: pointer;
   }
 
-.hero {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  width: 100%;
-  background-color: rgb(250, 227, 246);
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-right: 100px;
-  padding-left: 150px;
-
-}
 
 @media screen and (max-width: 600px){
-  .hero {
+
+.hero {
     max-width: 100%;
   }
 
-  .hero {
-    z-index: 888;
+.hero {
     display: block;
     max-width: 100%;
     height: 100vh;
     background-image: url("./image/nachosp.png");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     transition: all 0.5s;
+    background-attachment: fixed;
 }
 
 .card {
   max-width: 100%;
   height: auto;
-  width: 600px;
+  width: 550px;
   background-color: #bebaba;
   padding: 20px 35px;
   border-radius: 20px;
-  margin: 10px;
+  margin: 20px 40px 20px 40px;
+  position: relative;
+  overflow: hidden;
   text-align: center;
 }
 
@@ -222,7 +209,7 @@ label #cancel {
 }
 
 .sidebar header {
-  font-size: 20px;
+  font-size: 25px;
   color: aquamarine;
   text-align: center;
   text-decoration: none;
@@ -247,6 +234,8 @@ label #cancel {
 
 #check:checked ~ .hero {
   margin-top: 250px;
+
+
 }
 
 

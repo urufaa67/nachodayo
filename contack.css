@@ -6,6 +6,11 @@
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   display: grid;
@@ -93,4 +98,118 @@ input[type="reset"] {
   box-shadow: 1px 1px 3px black;
 
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px){
+
+
+  body {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+
+    display: flex;
+    place-content: center;
+  
+
+  }
+  .contact-form {
+    width: 100%;
+    flex-direction: column;
+    padding: 50px 30px;
+
+   }
+  
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  form {
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .item {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    float: left;
+    margin-right: 20px;
+    width: 135px;
+    border-left: solid 5px #2e3cfa;
+    padding-left: 10px;
+  }
+  
+  .inputs {
+    
+    float: left;
+    width: auto;
+    padding: 10px;
+
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    border: solid 1px #aaa;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    height: 160px;
+    width: auto;
+    font-size: 15px;
+  }
+  
+  .button-area {
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    background: #2e3cfa;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+  }
+  
+  input[type="reset"] {
+    background: #837a7a;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+  
+    cursor: pointer;
+  }
+  
+
+
+
+
+
 }

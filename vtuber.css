@@ -124,7 +124,7 @@ label #cancel {
     background-color: #bebaba;
     padding: 20px 20px;
     border-radius: 20px;
-    margin: 20px;
+    margin: 160px 60px 40px 60px;
     text-align: center;
   }
   
@@ -159,7 +159,7 @@ label #cancel {
     border-radius: 30px;
     transition: 0.3s;
   }
-  
+
 .card .button:hover {
     background-color: transparent;
     border: 2px solid green;
@@ -187,16 +187,20 @@ label #cancel {
 .card {
   max-width: 100%;
   height: auto;
-  width: 550px;
+  width: auto;
   background-color: #bebaba;
-  padding: 20px 35px;
+  padding: 20px 20px;
   border-radius: 20px;
-  margin: 20px 40px 20px 40px;
-  position: relative;
-  overflow: hidden;
+  margin: 150px 40px 0px 40px;
   text-align: center;
 }
 
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .sidebar {
   z-index: 999;

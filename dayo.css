@@ -9,6 +9,10 @@
     font-family: 'M PLUS 1p', sans-serif;;
 }
 
+.hamburger {
+  display: none;
+}
+
 .sidebar {
     position: fixed;
     left: -250px;
@@ -100,14 +104,25 @@ label #cancel {
 
 .bg {
     height: 100vh;
-    background-image: url("./karubi.png");
+    background-image: url("./image/karubi.png");
     background-size: cover;
     background-position: center;
     transition: all 0.5s;
 }
 
+
 @media screen and (max-width: 600px){
   .bg {
     max-width: 100%;
   }
+
+  .bg {
+    height: 100vh;
+    background-image: url("./image/nachosp.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s;
+}
+
+
 }

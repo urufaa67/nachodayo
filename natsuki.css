@@ -171,9 +171,10 @@ label #cancel {
   }
 
   @media screen and (max-width: 600px){
-    .hero {
-      max-width: 100%;
-    }
+.hero {
+    max-width: 100%;
+    position: relative;
+}
   
 .hero::before {
     content:"";

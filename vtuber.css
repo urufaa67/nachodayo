@@ -108,6 +108,7 @@ label #cancel {
     background-image: url("./karubi.png");
     background-size: cover;
     background-position: center;
+    background-size: cover;
     background-attachment: fixed;
     transition: all 0.5s;
 }

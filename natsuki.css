@@ -109,6 +109,7 @@ label #cancel {
     background-size: cover;
     background-position: center;
     transition: all 0.5s;
+    background-attachment: fixed;
 }
 
 .box {

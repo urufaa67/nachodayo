@@ -176,6 +176,7 @@ label #cancel {
 
 .hero {
     position: relative;
+    background-image: none;
 }
 .hero::before {
     content:"";

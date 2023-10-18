@@ -175,7 +175,6 @@ label #cancel {
   }
 
 .hero {
-    padding:5%;
     position: relative;
 }
 .hero::before {
